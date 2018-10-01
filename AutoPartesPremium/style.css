@@ -163,6 +163,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Bloc text custom styling */
 
+#bloc-0 .navbar-brand{
+	font-size: 25px;
+}
 #bloc-0 h5{
 	font-family: Lobster;
 	font-size: 20px;
@@ -778,7 +781,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.hero-text-vc{
 	margin-top:10%;
 }
- }
+ 
+/* Force Mini Menu */
+.navbar-header{
+	float: none;
+}
+.navbar-toggle{
+	display: block;
+}
+ .navbar-collapse.collapse{
+	display: none!important;
+}
+ .navbar-collapse.collapse.in{
+	display: block!important;
+}
+ .site-navigation{
+	transform:none!important;
+}
+.nav-invert .navbar-header{
+	float: none;
+	 width:100%;
+}
+.nav-invert .navbar-toggle{
+	float:left;
+}
+}
 /* Drop Down Navigation */
 @media (min-width: 767px) and (max-width: 991px){
 	
@@ -823,5 +850,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .hero-text-vc{
 	margin-top:0px;
 }
- }
+ #bloc-0 .navbar-brand{
+	font-size: 21px;
+}
+}
 
