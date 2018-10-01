@@ -15,14 +15,13 @@
 	<link rel="stylesheet" type="text/css" href="./css/feather.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/linecons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/lazysizes.min.js" defer></script>
 	
-    <title>Inicio</title>
+    <title>Home</title>
 <script>
 $ (window).ready (function () {
 	setTimeout (function () {
@@ -41,25 +40,19 @@ $ (window).ready (function () {
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc" id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row mini-nav">
+<div class="bloc none bgc-white l-bloc" id="bloc-0">
+	<div class="container b-divider-dashed">
+		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand " href="home.html"><img src="img/logo.jpg" alt="logo" width="173" />AutopartesPremiun</a>
+				<a class="navbar-brand" href="index.php"><img src="img/logo.jpg" width="160" />AutoPartes Premium</a> 
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
-				<h3 class="mg-md text-right ">
-					<br>
-				</h3>
-				<h6 class="mg-md  text-right text-left-xs">
-					La experiencia de comprar repuestos
-				</h6>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<div class="collapse navbar-collapse navbar-1">
 				<ul class="site-navigation nav navbar-nav menu-inicio">
 					<li>
-						<a href="home.html">Home</a>
+						<a href="index.php">Inicio</a>
 					</li>
 					<li>
 						<a href="contacto.html">Contacto</a>
@@ -77,29 +70,29 @@ $ (window).ready (function () {
 </div>
 <!-- bloc-0 END -->
 
-<!-- bloc-4 -->
-<div class="bloc b-parallax none bgc-white tc-white bg-fondo-204runner-20tarde d-bloc " id="bloc-4">
+<!-- bloc-1 -->
+<div class="bloc b-parallax none bgc-azure bg-fondo-204runner-20tarde d-bloc tc-white" id="bloc-1">
 	<div class="container bloc-xxl">
 		<div class="row l-bloc lightbox animSpeedFast voffset-clear-xs row-no-gutters ">
 			<div class="col-xs-12 col-md-8 col-md-offset-2">
 				<h2 class="mg-md text-center tc-white">
 					Quienes somos
 				</h2>
-				<h3 class="statement-bloc-text text-center  tc-white glow-t mg-clear">
+				<h3 class="statement-bloc-text text-center  glow-t mg-clear tc-white">
 					Somos una empresa especializada en importación y venta de repuestos para vehículos Toyota y Lexus. Manejamos un amplio stock de repuestos Genuinos y alternativos de las mejores marcas los cuales entregamos y despachamos a todo Chile. <br><br>Disfrute de una atención personalizada, seria, responsable y comprometida. <br><br>Además para su comodidad y para entregar un mejor servicio a nuestros clientes usted puede contactarnos por diversos medios.<br>
 				</h3>
 			</div>
 		</div>
 		<div class="row voffset-lg">
 			<div class="col-sm-12">
-				<h1 class="tc-white mg-clear">
+				<h1 class="mg-clear tc-white">
 					Nuestro Productos
 				</h1>
 			</div>
 		</div>
-		<div class="row voffset lightbox ">
+		<div class="row voffset lightbox bgc-white">
 			<div class="col-sm-4">
-				<h2 class="mg-md tc-white">
+				<h2 class="mg-md text-center tc-white">
 					Filtros
 				</h2><img src="img/lazyload-ph.png" data-src="img/Engine%201.jpg" class="center-block img-responsive lazyload" />
 				<p class=" mg-sm text-justify">
@@ -107,7 +100,7 @@ $ (window).ready (function () {
 				</p>
 			</div>
 			<div class="col-sm-4">
-				<h2 class="mg-md tc-white">
+				<h2 class="mg-md text-center tc-white">
 					Frenos
 				</h2><img src="img/lazyload-ph.png" data-src="img/frenos.jpg" class="img-responsive center-block lazyload" />
 				<p class=" mg-sm text-justify">
@@ -115,7 +108,7 @@ $ (window).ready (function () {
 				</p>
 			</div>
 			<div class="col-sm-4">
-				<h2 class="mg-md tc-white">
+				<h2 class="mg-md text-center tc-white">
 					Bujías
 				</h2><img src="img/lazyload-ph.png" data-src="img/Bujias%202.jpg" class="img-responsive center-block lazyload" />
 				<p class=" mg-lg text-justify">
@@ -123,23 +116,29 @@ $ (window).ready (function () {
 				</p>
 			</div>
 		</div>
-		<div class="row voffset-md lightbox">
+		<div class="row lightbox voffset-md">
 			<div class="col-sm-3">
-				<div class="text-center">
-					<span class="feather-icon icon-square-check icon-round icon-md icon-white"></span>
+				<div class="divider-h espaciador">
+					<span class="divider divider-half"></span>
 				</div>
-				<h3 class="text-center mg-md tc-white ">
+				<div class="text-center">
+					<span class="feather-icon icon-square-check glow-t icon-md icon-round icon-white"></span>
+				</div>
+				<h3 class="text-center  mg-sm tc-white">
 					Calidad
 				</h3>
-				<p class="text-justify">
+				<p class="text-justify mg-sm">
 					Ofrecemos productos originales y también alternativos con características que igualan o superan las prestaciones del repuesto original.
 				</p>
 			</div>
 			<div class="col-sm-3">
+				<div class="divider-h">
+					<span class="divider divider-half"></span>
+				</div>
 				<div class="text-center">
 					<span class="fa fa-group icon-round icon-md icon-white"></span>
 				</div>
-				<h3 class="text-center mg-md tc-white ">
+				<h3 class="text-center  mg-sm tc-white">
 					Confianza
 				</h3>
 				<p class="text-justify">
@@ -147,10 +146,13 @@ $ (window).ready (function () {
 				</p>
 			</div>
 			<div class="col-sm-3">
+				<div class="divider-h">
+					<span class="divider divider-half"></span>
+				</div>
 				<div class="text-center">
 					<span class="fa fa-child icon-round icon-md icon-white"></span>
 				</div>
-				<h3 class="text-center mg-md tc-white ">
+				<h3 class="text-center  mg-sm tc-white">
 					Seriedad
 				</h3>
 				<p class="text-justify">
@@ -158,10 +160,13 @@ $ (window).ready (function () {
 				</p>
 			</div>
 			<div class="col-sm-3">
+				<div class="divider-h">
+					<span class="divider divider-half"></span>
+				</div>
 				<div class="text-center">
 					<span class="li_lock icon-round icon-md icon-white"></span>
 				</div>
-				<h3 class="text-center mg-md tc-white ">
+				<h3 class="text-center  mg-sm tc-white">
 					Seguridad
 				</h3>
 				<p class="text-justify">
@@ -186,16 +191,16 @@ $ (window).ready (function () {
 		</div>
 	</div>
 </div>
-<!-- bloc-4 END -->
+<!-- bloc-1 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
-<!-- Footer - bloc-5 -->
-<div class="bloc bgc-white l-bloc" id="bloc-5">
-	<div class="container bloc-md">
+<!-- Footer - bloc-4 -->
+<div class="bloc bgc-white l-bloc" id="bloc-4">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-4">
 				<h3 class="mg-md bloc-mob-center-text text-left">
@@ -215,7 +220,7 @@ $ (window).ready (function () {
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-5 END -->
+<!-- Footer - bloc-4 END -->
 
 </div>
 <!-- Main container END -->
@@ -228,14 +233,15 @@ $ (window).ready (function () {
 <h4 class="modal-title" id="myModalLabel"></h4>
 </div>
 <div class="modal-body modal-bg">
-<p class="text-center h1-modal">¡Despacho a todo Chile!</p>
+<p class="text-center h1-modal">This is an alert box!</p>
 <div class="row">
 <div class="col-sm-10 col-sm-offset-1">
-<p class="text-center h2-modal"></p> <p class="text-muted small text-center modal-text"> <br/><a href="https://duckduckgo.com" class="link-mod"></a>.</p>
+<p class="text-center h2-modal">Add your HTML content and style it as you like.</p>
+<p class="text-muted small text-center modal-text">Here's some modal-text and an example link<br/><a href="https://duckduckgo.com" class="link-mod">Search with DuckDuckGo</a>.</p>
 <div class="col-sm-10 col-sm-offset-1">
 <br/>
 <p class="text-center">
-<button type="button" class="btn btn-enter" data-dismiss="modal">Entra al sitio</button></p></div>
+<button type="button" class="btn btn-enter" data-dismiss="modal">Enter site</button></p></div>
 </div>
 </div>
 </div>

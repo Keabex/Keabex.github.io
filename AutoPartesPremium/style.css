@@ -44,12 +44,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-lg{
 	padding:100px 50px;
 }
-.bloc-md{
-	padding:50px;
-}
-.bloc-sm{
-	padding:20px 50px;
-}
 
 
 /* Background Effects */
@@ -160,29 +154,40 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding-right: 0;
 	padding-left: 0;
 }
+/* Dividers */
+
+.b-divider-dashed{
+	border-top:1px dashed rgba(0,0,0,.1);
+	border-bottom:1px dashed rgba(0,0,0,.1);
+}
 
 /* Bloc text custom styling */
 
-#bloc-0 .navbar-brand{
-	font-family: Lato;
-	font-weight: 400;
-}
-#bloc-0 h3{
-	font-family: Lobster;
-}
 #bloc-1 h3{
 	font-family: Lato;
 	font-weight: 400;
+	font-size: 30px;
+	line-height: 38px;
 }
-#bloc-2 p{
+#bloc-1 p{
 	font-size: 20px;
 }
-#bloc-4 h3{
+#bloc-1 h3{
+	font-size: 30px;
+	line-height: 38px;
+}
+#bloc-3 h3{
 	font-family: Lato;
 	font-weight: 400;
+	font-size: 30px;
+	line-height: 38px;
 }
-#bloc-4 p{
+#bloc-3 p{
 	font-size: 20px;
+}
+#bloc-3 h3{
+	font-size: 30px;
+	line-height: 38px;
 }
 
 /* = NavBar
@@ -375,8 +380,8 @@ button{
 .icon-md{
 	font-size:30px!important;
 }
-.icon-xl{
-	font-size:100px!important;
+.icon-lg{
+	font-size:60px!important;
 }
 .icon-round{
 	margin:0 auto;
@@ -416,6 +421,22 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -499,6 +520,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .lightbox{
 	background-color:rgba(0,0,0,0.4);
+	border-style:none;
+	border-top-width:100px;
+}
+.menu-inicio{
+	text-transform:uppercase;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:30px;
+}
+.espaciador{
+	background-clip:;
+	-webkit-background-clip:;
+	border-color:rgba(0,0,0,0.0);
+	background-color:transparent;
+	display:;
+	overflow:hidden;
 }
 
 /* = Colour
@@ -507,26 +544,38 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Background colour styles */
 
 .bgc-white{
-	background-color:#FFFFFF;
+	background-color:#FDFFFD;
 }
-.bgc-charcoal{
-	background-color:#3D4D5E;
+.bgc-azure{
+	background-color:#0096FF;
 }
 
 /* Text colour styles */
 
 .tc-white{
-	color:#FFFFFF!important;
+	color:#FDFFFD!important;
 }
-.tc-medium-jungle-green{
-	color:#0E2A33!important;
+.tc-azure{
+	color:#0096FF!important;
 }
 
 /* Icon colour styles */
 
 .icon-white{
-	color:#FFFFFF!important;
-	border-color:#FFFFFF!important;
+	color:#FDFFFD!important;
+	border-color:#FDFFFD!important;
+}
+.icon-medium-electric-blue{
+	color:#005392!important;
+	border-color:#005392!important;
+}
+.icon-azure{
+	color:#0096FF!important;
+	border-color:#0096FF!important;
+}
+.icon-shamrock-green{
+	color:#008F51!important;
+	border-color:#008F51!important;
 }
 
 /* Bloc image backgrounds */
