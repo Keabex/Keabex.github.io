@@ -382,6 +382,9 @@ button{
 .text-center .a-block{
 	text-align:center;
 }
+.pull-right-block{
+	text-align:right;
+}
 
 /* = Icons
 -------------------------------------------------------------- */
