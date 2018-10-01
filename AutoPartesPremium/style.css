@@ -527,7 +527,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:lighter;
 }
 .lightbox{
-	background-color:rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.1);
 	border-style:none;
 	border-top-width:100px;
 }
