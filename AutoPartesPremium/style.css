@@ -320,6 +320,10 @@ nav .caret{
 	margin: 6px -5px 0 0!important;
 	float: right;
 }
+.hero .hero-nav{
+	padding-left:inherit;
+	padding-right:inherit;
+}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -544,7 +548,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Background colour styles */
 
 .bgc-white{
-	background-color:#FDFFFD;
+	background-color:#FFFFFF;
 }
 .bgc-azure{
 	background-color:#0096FF;
@@ -553,7 +557,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Text colour styles */
 
 .tc-white{
-	color:#FDFFFD!important;
+	color:#FFFFFF!important;
 }
 .tc-azure{
 	color:#0096FF!important;
@@ -562,8 +566,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Icon colour styles */
 
 .icon-white{
-	color:#FDFFFD!important;
-	border-color:#FDFFFD!important;
+	color:#FFFFFF!important;
+	border-color:#FFFFFF!important;
 }
 .icon-medium-electric-blue{
 	color:#005392!important;
