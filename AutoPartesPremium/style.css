@@ -163,6 +163,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Bloc text custom styling */
 
+#bloc-0 h5{
+	font-family: Lobster;
+	font-size: 20px;
+}
 #bloc-1 h3{
 	font-family: Lato;
 	font-weight: 400;
@@ -523,7 +527,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:lighter;
 }
 .lightbox{
-	background-color:rgba(0,0,0,0.4);
+	background-color:rgba(0,0,0,0.2);
 	border-style:none;
 	border-top-width:100px;
 }
