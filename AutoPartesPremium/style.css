@@ -183,6 +183,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 30px;
 	line-height: 38px;
 }
+#bloc-2 label{
+	font-size: 20px;
+}
+#bloc-2 h6{
+	font-size: 16px;
+}
 #bloc-3 h3{
 	font-family: Lato;
 	font-weight: 400;
@@ -326,10 +332,6 @@ nav .caret{
 	border-bottom-color:transparent;
 	margin: 6px -5px 0 0!important;
 	float: right;
-}
-.hero .hero-nav{
-	padding-left:inherit;
-	padding-right:inherit;
 }
 
 /* = Bric adjustment margins
