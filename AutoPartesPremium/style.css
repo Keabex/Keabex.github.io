@@ -45,6 +45,26 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:100px 50px;
 }
 
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+.full-width-bloc .navbar{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 
 /* Background Effects */
 
@@ -528,7 +548,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-transform:uppercase;
 	text-decoration:none;
 	font-weight:normal;
-	font-size:30px;
+	font-size:25px;
 }
 .espaciador{
 	background-clip:;
