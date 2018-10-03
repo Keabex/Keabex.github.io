@@ -372,23 +372,8 @@ button{
 	outline: none!important;
 }
 
-.a-btn{
-	padding: 6px 10px 6px 0;
-	line-height: 1.42857143;
-	display:inline-block;
-}
-.text-center .a-btn{
-	padding: 6px 0;
-}
-.a-block{
-	width:100%;
-	text-align:left;
-}
-.text-center .a-block{
-	text-align:center;
-}
-.pull-right-block{
-	text-align:right;
+.icon-spacer{
+	margin-right:5px;
 }
 
 /* = Icons
@@ -576,6 +561,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-azure{
 	color:#0096FF!important;
+}
+.tc-ferrari-red{
+	color:#FF2600!important;
+}
+.tc-charcoal{
+	color:#3D4D5E!important;
 }
 
 /* Icon colour styles */
