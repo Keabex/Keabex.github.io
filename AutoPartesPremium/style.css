@@ -44,6 +44,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-lg{
 	padding:100px 50px;
 }
+.bloc-sm{
+	padding:20px 50px;
+}
 
 /* = Full Width Blocs 
 -------------------------------------------------------------- */
@@ -184,7 +187,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* Bloc text custom styling */
 
 #bloc-0 .navbar-brand{
-	font-size: 25px;
+	font-size: 20px;
 }
 #bloc-0 h5{
 	font-family: Lobster;
@@ -209,16 +212,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-2 h6{
 	font-size: 16px;
 }
-#bloc-3 h3{
+#bloc-4 h3{
 	font-family: Lato;
 	font-weight: 400;
 	font-size: 30px;
 	line-height: 38px;
 }
-#bloc-3 p{
+#bloc-4 p{
 	font-size: 20px;
 }
-#bloc-3 h3{
+#bloc-4 h3{
 	font-size: 30px;
 	line-height: 38px;
 }
@@ -569,6 +572,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-medium-jungle-green{
 	background-color:#0E2A33;
+}
+.bgc-charcoal{
+	background-color:#3D4D5E;
 }
 .bgc-azure{
 	background-color:#0096FF;
